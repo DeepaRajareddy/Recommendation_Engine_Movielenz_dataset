@@ -10,7 +10,14 @@ For this project, we will be using the MovieLense dataset from Kaggle
 (https://www.kaggle.com/grouplens/movielens-20m-dataset)
 This dataset contains 20 million movie rating and tagging activies from 1995. These activities span across more than 7800 users. The data spans from January 09 1995 to March 31 2015 and was generated as of October 17 2016. Users in this dataset were selected at random, with each selected user having at least 20 ratings.
 Keeping in mind this specific project, this dataset will further be contain only a subset of these users. The dataset contains five different tables which were merged to form a master dataset.
-Dataset 1: Tag - This contains the tags applied to the movies by the users. Dataset 2: Ratings - This contains the ratings of the movies by the users. Dataset 3: Movies - This contains information about the movie itself, such as the movie title and genres Dataset 4: Link - This contains the mapping information of the various identifies. Dataset 5: Genome Scores - This contains the relevance of the tags applied by the users. Dataset 6: Genome Tags - This contains the tag names and tag IDs.
+
+1: Tag - This contains the tags applied to the movies by the users. Dataset 
+2: Ratings - This contains the ratings of the movies by the users. Dataset 
+3: Movies - This contains information about the movie itself, such as the movie title and genres Dataset
+4: Link - This contains the mapping information of the various identifies. Dataset
+5: Genome Scores - This contains the relevance of the tags applied by the users. Dataset
+6: Genome Tags - This contains the tag names and tag IDs.
+
 The primary focus of this project will be using Dataset 1, Dataset 2 and Dataset 3
 ## Recommendation Systems Overview:
 Information filteing, for recommendation specifically have multiple approaches to choose from. The most relevant approaches for this project are 
